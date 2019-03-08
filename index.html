@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="client.js"></script>
+    <title>jQuery Salary Calc</title>
+</head>
+<body>
+    <h1>Salary Calculator</h1>
+    <div id="inputDiv">
+        <h3>Add Employee</h3>
+        <input type="text" id="firstNameIn" placeholder="First Name">
+        <input type="text" id="lastNameIn" placeholder="Last Name">
+        <input type="number" id="idNumberIn" placeholder="ID Number">
+        <input type="text" id="titleIn" placeholder="Title">
+        <input type="number" id="salaryIn" placeholder="Salary">
+        </select>
+        <br>
+        <button id="submitButton">Submit</button>
+      </div>
+      <div id="employeeList">
+        <h3>Employees</h3>
+        <table>
+            <thead>
+                <td>First Name</td>
+                <td>Last Name</td>
+                <td>ID Number</td>
+                <td>Title</td>
+                <td>Salary</td>
+            </thead>
+            <tbody id="tableBody">
+        
+            </tbody>
+        </table>
+      </div>
+      <div>
+          <p>Total Monthly: $<span id="monthlySum"></span></p>
+      </div>
+</body>
+</html>
