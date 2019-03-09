@@ -1,0 +1,64 @@
+.header {
+    width: 100%;
+    padding: 25px;
+    background-color: #595959;
+    color: white;
+    text-align: center;
+  }
+
+  body {
+    font-family: sans-serif;
+  }
+
+  #inputDiv {
+    display: inline;
+    width: 100%;
+    padding: 5px;
+  }
+
+  #firstNameIn, #lastNameIn, #idNumberIn, #titleIn, #salaryIn{
+    border: 1px solid black;
+    padding: 2px;
+    margin: 2px;
+  }
+  
+  #submitButton {
+    float: right;
+    padding: 5px;
+    margin-right: 100px;
+    margin-top: 15px;
+    height: 25px;
+    width: 12.5%;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 13px;
+ 
+  }
+
+  .heading {
+      background: #e6e6e6
+  }
+  
+  td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 5px;
+  }
+
+  tr:nth-child(even) {
+      background: #CCC
+    }
+
+    tr:nth-child(odd) {
+        background: #FFF
+    }
+
+  #sum {
+      text-align: right;
+      margin-right: 400px;
+  }
+
+  h3 {
+      color: #595959;
+  }
