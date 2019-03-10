@@ -1,3 +1,5 @@
+
+
 .header {
     width: 100%;
     padding: 25px;
@@ -12,7 +14,6 @@
 
   #inputDiv {
     display: inline;
-    width: 100%;
     padding: 5px;
   }
 
@@ -20,7 +21,9 @@
     border: 1px solid black;
     padding: 2px;
     margin: 2px;
+    width: 18%;
   }
+
   
   #submitButton {
     float: right;
@@ -37,14 +40,38 @@
   }
 
   .heading {
-      background: #e6e6e6
+      background: #e6e6e6;
+      width: 100%;
+      white-space: nowrap;
+      table-layout: fixed;
   }
+
+  .row-first{
+      width: 20%;
+  }
+
+  .row-last{
+      width: 20%;
+  }
+
+  .row-id{
+      width: 20%;
+  }
+
+  .row-title{
+    width: 20%;
+}
+
+.row-salary{
+    width: 20%;
+}
   
   td {
       border: 1px solid black;
       border-collapse: collapse;
       padding: 5px;
   }
+
 
   tr:nth-child(even) {
       background: #CCC
@@ -56,7 +83,7 @@
 
   #sum {
       text-align: right;
-      margin-right: 400px;
+      margin-right: 100px;
   }
 
   h3 {
